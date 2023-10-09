@@ -2,20 +2,10 @@
 
 ![Hacktoberfest Logo](./hacktoberfest_wall.png)
 
-## Introduction
-## Guidelines:
+# Introduction
+## What is <a href="https://hacktoberfest.com/">Hacktoberfest</a>
 
-- **No DELETING files** 
-- Your code doesn't have to be pretty
-- You have the freedom to use any programming language.
-- If there is no folder for the Programming Language YOU are using, please create a folder inside the **"HacktoberFest"** directory with the name of the language.
-- Enjoy the coding process!
-
-Whether you're a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge.
-
-## What is Hacktoberfest?
-
-Hacktoberfest encourages participation in giving back to the open-source community by completing pull requests, participating in events, and donating to open source projects. In its 10th year, Hacktoberfest continues to grow and foster a vibrant open source community that we are all a part of.
+<a href="https://hacktoberfest.com/">Hacktoberfest</a> encourages participation in giving back to the open-source community by completing pull requests, participating in events, and donating to open source projects. In its 10th year, Hacktoberfest continues to grow and foster a vibrant open source community that we are all a part of.
 
 ## How Does It Work?
 
@@ -24,133 +14,92 @@ Hacktoberfest encourages participation in giving back to the open-source communi
 - You can contribute to any public repository on GitHub, not just the ones highlighted.
 - If a maintainer reports your pull request as spam or behavior not in line with the project’s code of conduct, you will be ineligible to participate.
 
-## Rules
+## <a href="https://hacktoberfest.com/participation/#contributors">Rules</a> of Hactoberfest
 
 To earn your tree reward, you must register and make four valid pull requests (PRs) between October 1-31 in any time zone. Pull requests can be made in any participating GitHub-hosted repositories/projects.
 
+# <a href="https://www.asurascans.com/">Asura- scans clone</a>
+<img width="200" alt="logo" src="https://github.com/adaharshsingh/hacktoberfest/blob/main/images/Site-logo.webp">
+
+## Introduction
+Undoubtedly, a significant portion of our childhood was dedicated to immersing ourselves in the captivating worlds of anime and manhwa. As Hacktoberfest 2023 approaches, I find myself gearing up to participate as a mentor for the very first time. To contribute to this exciting event, I've initiated the creation of a repository. This repository hosts a simple web page that allows users to both explore and contribute their beloved manhwa titles, images and description. If you possess coding skills and aspire to help make this website as impressive as <a href="https://www.asurascans.com/">Asura Scans</a>, your valuable contributions would be greatly appreciated, especially since I'm still in the learning phase.
+
+<a href="https://www.asurascans.com/">Asura Scans</a> is a website that primarily focused on providing scanlations of various manga and manhwa titles. Here in this project i have tried to replicate that website Since distribution of manga without permission is illegal so we can't add any actual manhwa thus i have only developed the front-end part of the website ; if you are veteran at coding and open source contributions ; your help will very much be appriciated in making this website look as close to asura scans as possible.
+
+
 ## How Can I Contribute?
+Baically you have to add your favourite manhwa as a card in this project ; i have provided the code below;
+just add your code code after line number 425 and before line 426 in <a href="./index.html">index.html</a> file
 
-Contributions aren't limited to code – we welcome contributions to documentation, design, translations, bug reports and more! If you're new to open source or interested in contributing, this repository is a great place to start. If you're an experienced open-source contributor, feel free to check out these issues and contribute.
 
-## Let's Get Started!
+To contribute in Hacktoberfest2023 or any other repositories , checkout the given link and win hactoberfest badges and a lot of experience ...
+https://hacktoberfest.com/
 
-Ready to contribute? Check out our Contribution Guide for information on how to get started.
 
-Happy Hacking!
+And That's It!
+Follow these steps to make your very first Pull request.
+<br>
+<br>
 
-## First Contributions
+## How to get the PR accepted
+Rules that you have to follow while doing a pull request
+* When doing a pull request please write the name of the manhwa you are updating.
+* make sure to update the code and remove
+  1.[name of manhwa]- with the name of manhwa you are updating 
+  2.[name of your manhwa image]- here write the name of image that you have uploded in the image section.
+* uploading manhwa image in the <a href="./images">Images</a> folder is necessary.
+* make sure not to upload same manhwa twice
+* change the name the of your image to your manhwa name so its easy to identify later on.
 
-Welcome to the First Contributions project, designed to help beginners make their first open-source contribution. If you're new to this process, follow the steps below.
+# Contents of the Webpage
 
-_If you're not familiar with the command line, you can use [GUI tools](#tutorials-using-other-tools) to help you._
+1. index.html - Contains the content of the main/home page.
+2. images- contains the images of the manhwa.
 
-![Fork this repository](https://firstcontributions.github.io/assets/Readme/fork.png)
+# What can you contribute?
 
-### Prerequisites
+There's always an opportunity to contribute to a project, regardless of your level of experience, whether you're a newcomer or a seasoned veteran. In this particular project, you have the option to enhance it by adding your favorite manhwa as a card on the website. Alternatively, if you happen to find this very line you're reading right now in need of improvement, Sure! Why not?
 
-Before you start, ensure you have [Git installed](https://help.github.com/articles/set-up-git/) on your machine.
 
-## Step 1: Fork this repository
+# But what if i don't know how to add cards? :(
 
-Begin by forking this repository. Click the "Fork" button at the top of this page. This action will create a copy of this repository in your GitHub account.
+Not everyone is aware of every tool present in the world no matter how easy or complex it is. It's also not necessary to know each and every tool out there. Use the code below to add the your own card!
 
-## Step 2: Clone the repository
+<b>Code -</b> 
 
-![Clone this repository](https://firstcontributions.github.io/assets/Readme/clone.png)
+                <!-- [name of the manhwa] card start-->
+                <div class="box d-flex">
+                  <a href="#">
+                    <img src="images/[name of your manhwa image]" alt="" />
+                  </a>
+                  <div class="text pl-10">
+                    <h4 class="c-white">[name of manhwa]</h4>
+                    <div class="chapters">
+                      <div class="ch between-flex p-relative mb-5">
+                        <a class="fs-13 c-white pl-20" href="#">Chapter 43</a>
+                        <span class="fs-13 c-grey">1hour ago</span>
+                      </div>
+                      <div class="ch between-flex p-relative mb-5">
+                        <a class="fs-13 c-white pl-20" href="#">Chapter 43</a>
+                        <span class="fs-13 c-grey">1hour ago</span>
+                      </div>
+                      <div class="ch between-flex p-relative mb-5">
+                        <a class="fs-13 c-white pl-20" href="#">Chapter 43</a>
+                        <span class="fs-13 c-grey">1hour ago</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!--[manhwa name] card end-->
 
-Next, clone your forked repository to your local machine. Go to your GitHub account, open the forked repository, click on the "Code" button, and then click the "Copy to clipboard" icon.
+NOTE: download and add image to the Images folder .
 
-Open your terminal and run the following command, replacing `"url you just copied"` with the copied URL:
+just add your code code after line number 425 and before line 426 in <a href="./index.html">index.html</a> file. Try and test it on your own system and then create a Pull request. .
 
-```shell
-git clone "url you just copied"
-```
 
-For example:
+# Congratulations!
 
-```shell
-git clone https://github.com/your-username/first-contributions.git
-```
-
-## Step 3: Create a branch
-
-Change to the repository directory on your computer (if you are not already there):
-
-```shell
-cd first-contributions
-```
-
-Now, create a branch using the `git checkout` command:
-
-```shell
-git checkout -b your-new-branch-name
-```
-
-For example:
-
-```shell
-git checkout -b add-alonzo-church
-```
-
-## Step 4: Make necessary changes and commit them
-
-Open the `Contributors.md` file in a text editor and add your name to it. Don't add it at the beginning or end of the file; place it anywhere in between. Save the file.
-
-![Git Status](https://firstcontributions.github.io/assets/Readme/git-status.png)
-
-If you run the `git status` command in your project directory, you'll see there are changes. Add those changes to the branch you created using the `git add` command:
-
-```shell
-git add Contributors.md
-```
-
-Now commit those changes:
-
-```shell
-git commit -m "Add <your-name> to Contributors list"
-```
-
-Replace `<your-name>` with your name.
-
-## Step 5: Push your changes to GitHub
-
-Use the `git push` command to push your changes to GitHub:
-
-```shell
-git push origin -u <add-your-branch-name>
-```
-
-Replace `<add-your-branch-name>` with the name of the branch you created earlier.
-
-<details>
-
-<summary> <strong>If you encounter errors while pushing, click here:</strong> </summary>
-
-- ### Authentication Error
-
-  If you encounter an authentication error, it's because GitHub has removed support for password authentication. You need to use a personal access token instead. [GitHub's tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) can guide you through generating and configuring an SSH key for your account.
-
-</details>
-
-## Step 6: Submit your changes for review
-
-Go to your repository on GitHub, and you'll see a "Compare & pull request" button. Click on that button.
-
-![Create a pull request](https://firstcontributions.github.io/assets/Readme/compare-and-pull.png)
-
-Submit the pull request.
-
-![Submit pull request](https://firstcontributions.github.io/assets/Readme/submit-pull-request.png)
-
-You will receive a notification email once your changes have been merged.
-
-## What's next?
-
-Congratulations! You've completed the standard _fork -> clone -> edit -> pull request_ workflow for contributing. Celebrate your contribution and share it with friends and followers using the [web app](https://firstcontributions.github.io/#social-share).
-
-If you have questions or need help, you can join our Slack team: [Join Slack Team](https://join.slack.com/t/firstcontributors/shared_invite/zt-vchl8cde-S0KstI_jyCcGEEj7rSTQiA).
-
-Now, let's get you started with contributing to other projects. We've compiled a list of projects with easy issues for newcomers. Check it out [here](https://firstcontributions.github.io/#project-list).
+Congratulation! You just made your first pull request and if it gets merged, you can view it on hactoberfest website.
 
 
 ## Merge Policy:
