@@ -1,6 +1,6 @@
 # Welcome to the Hacktoberfest 2023 Repository!
 
-![Hacktoberfest Logo](./assets/hacktoberfest_wall.png)
+![Hacktoberfest Logo]([./assets/hacktoberfest_wall.png](https://blog.tooljet.com/content/images/2022/09/Screenshot-2022-09-27-at-08.03.21.png))
 
 ## Introduction
 ## Guidelines:
