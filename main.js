@@ -31,6 +31,7 @@ function getDataFromLocalStorage() {
     }
   }
 }
+
 function whiteMode() {
   root.style.setProperty("--backhround-color", "#eef0f2");
   let lightMode = rootStyles.getPropertyValue("--backhround-color");
@@ -41,6 +42,16 @@ function whiteMode() {
   textWhite.forEach((e) => {
     e.style.color = "black";
   });
+
+  //updated the code here
+
+  let searchBar = document.querySelector(
+    ".header .search .search-bar > input  "
+  );
+  searchBar.style.color = "black";
+  searchBar.style.backgroundColor = "white";
+  searchBar.style.border = "1px solid grey";
+  searchBar.style.placeholderColor = "black";
 
   window.localStorage.setItem("mode", lightMode);
   window.localStorage.setItem("check", false);
@@ -56,6 +67,15 @@ function darkMode() {
   textWhite.forEach((e) => {
     e.style.color = "white";
   });
+  //updated the code here
+
+
+  let searchBar = document.querySelector(
+    ".header .search .search-bar > input "
+  );
+  searchBar.style.color = "white";
+  searchBar.style.backgroundColor = "black";
+
   window.localStorage.setItem("mode", darkMode);
   window.localStorage.setItem("check", true);
 }
