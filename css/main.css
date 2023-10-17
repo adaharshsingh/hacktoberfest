@@ -4,6 +4,7 @@
   --backhround-color: rgb(22,21,29);
   --Gold-color: rgb(243, 216, 114);
   --white: rgb(253, 253, 253);
+
 }
 
 /* End Variables */
@@ -109,19 +110,33 @@ a {
   border-radius: 4px;
   height: 33px;
   width: 700px;
+
 }
-.header .search .search-bar > input::placeholder {
+
+/*removed this line */
+
+/*.header .search .search-bar > input::placeholder {
   color: var(--white);
-}
+}*/
 .header .search .search-bar::after {
   font-family: "Font Awesome 5 Free";
   content: "\f002";
-  color: var(--white);
+  /*color: var(--white);*/
+
+/*added this line */
+color: grey;
+
   font-weight: 900;
   position: absolute;
   right: 8px;
   top: 50%;
   transform: translateY(-50%);
+
+}
+@media (prefers-color-scheme: dark) {
+  .header .search .search-bar > input {
+    color: var(--text-color-dark); /* Set the text color for dark mode */
+  }
 }
 .header .search input[type="checkbox"] {
   -webkit-appearance: none;
